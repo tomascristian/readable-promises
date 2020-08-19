@@ -1,0 +1,17 @@
+{
+  "name": "readable-promises",
+  "version": "1.0.0",
+  "description": "A Promises/A+ compliant simplified implementation based on JS Promises.",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Tomas Cristian",
+  "type": "module",
+  "main": "src/Promise.js",
+  "scripts": {
+    "test": "node ./test/run-aplus-tests.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
